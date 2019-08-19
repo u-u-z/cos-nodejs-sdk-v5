@@ -1,6 +1,6 @@
 {
   "name": "cos-nodejs-sdk-v5-c1",
-  "version": "2.5.10",
+  "version": "2.5.101",
   "description": "cos nodejs sdk v5",
   "main": "index.js",
   "scripts": {
