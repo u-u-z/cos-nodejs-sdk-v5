@@ -1,0 +1,65 @@
+Arguments: 
+  /Users/remi/.nvm/versions/node/v11.10.1/bin/node /usr/local/bin/yarn
+
+PATH: 
+  /usr/local/opt/icu4c/sbin:/usr/local/opt/icu4c/bin:/usr/local/opt/php@7.1/sbin:/usr/local/opt/php@7.1/bin:/Users/remi/.nvm/versions/node/v11.10.1/bin:/Users/remi/mycode/gopath/bin:/opt/local/sbin:/opt/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/usr/local/MacGPG2/bin:/usr/local/share/dotnet:/opt/X11/bin:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Wireshark.app/Contents/MacOS:/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin:/usr/local/opt/icu4c/sbin:/usr/local/opt/icu4c/bin:/usr/local/opt/php@7.1/sbin:/usr/local/opt/php@7.1/bin:/Users/remi/mycode/gopath/bin:/opt/local/sbin:/opt/local/bin:/Users/remi/.composer/vendor/bin:/Users/remi/.composer/vendor/bin
+
+Yarn version: 
+  1.6.0
+
+Node version: 
+  11.10.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: read ECONNRESET
+      at TLSWrap.onStreamRead (internal/stream_base_commons.js:162:27)
+
+npm manifest: 
+  {
+    "name": "cos-nodejs-sdk-v5",
+    "version": "2.5.10",
+    "description": "cos nodejs sdk v5",
+    "main": "index.js",
+    "scripts": {
+      "demo": "node demo/demo.js",
+      "demo-sts": "node demo/demo-sts.js",
+      "demo-sts-scope": "node demo/demo-sts-scope.js",
+      "test": "mocha test/test.js",
+      "csp": "mocha test/csp.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:u-u-z/cos-nodejs-sdk-v5.git"
+    },
+    "keywords": [
+      "tencent",
+      "tencent cloud",
+      "qcloud",
+      "cos",
+      "cos-sdk"
+    ],
+    "author": "carsonxu",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/tencentyun/cos-nodejs-sdk-v5/issues"
+    },
+    "homepage": "https://github.com/tencentyun/cos-nodejs-sdk-v5#readme",
+    "dependencies": {
+      "configstore": "^3.1.2",
+      "request": "^2.81.0",
+      "xml2js": "^0.4.19"
+    },
+    "devDependencies": {
+      "mocha": "^4.0.1",
+      "qcloud-cos-sts": "^3.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

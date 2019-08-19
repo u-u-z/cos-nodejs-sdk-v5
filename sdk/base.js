@@ -1989,6 +1989,7 @@ function getObjectUrl(params, callback) {
         Method: params.Method || 'get',
         Key: params.Key,
         Expires: params.Expires,
+        Headers: params.Headers
     }, function (err, AuthData) {
         if (!callback) return;
         if (err) {
@@ -2133,7 +2134,6 @@ function getUrl(params) {
 function getAuthorizationAsync(params, callback) {
 
     var headers = util.clone(params.Headers);
-    delete headers['Content-Type'];
     delete headers['Cache-Control'];
     util.each(headers, function (v, k) {
         v === '' && delete headers[k];

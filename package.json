@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tencentyun/cos-nodejs-sdk-v5.git"
+    "url": "git@github.com:u-u-z/cos-nodejs-sdk-v5.git"
   },
   "keywords": [
     "tencent",
